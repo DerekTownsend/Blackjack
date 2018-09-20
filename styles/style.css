@@ -8,6 +8,10 @@ body {
   /*padding-bottom: 8em;*/
   font-family: Helvetica;
 }
+hr{
+  background-color:red;
+  border-color:red;
+}
 main{
   width:80%;
   min-height:100% ;
@@ -18,8 +22,22 @@ main{
 main h1{
   text-align: center;
 }
+.meetings main img{
+  display: block;
+  width: 45%;
+  margin: 0 auto;
+}
+h1{
+  font-size: 4em;
+}
 h2 {
   text-align: center;
+  font-size: 3em;
+}
+.mission{
+  text-align: center;
+  font-style: italic;
+  font-size: 2em;
 }
 .resume h2{
   padding-left: 1em
@@ -143,7 +161,7 @@ footer a:visited{
 @media screen and (max-width:900px){
   ul.nav li{
     display:none;
-    margin-left: -1em;
+    margin-left: -1.5em;
   }
 
   ul.nav{
@@ -174,7 +192,7 @@ footer a:visited{
     margin: 0;
     margin-top: 3.24em;
     padding-top: -3em;
-    margin-left: -1em;
+    margin-left: -1.5em;
     width: 120%;
     text-align: center;
     border-top: .05em  #ff8080 solid;
@@ -185,6 +203,10 @@ footer a:visited{
   }
   .image-container div{
     width: 100%;
+  }
+  .meetings main img{
+  width: 100%;
+    
   }
 
 }
